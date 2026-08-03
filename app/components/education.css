@@ -1,0 +1,81 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.education{
+    /* background-color: RED; */
+    padding: 20px 0px;
+}
+.edutitle{
+    display: flex;
+    /* background-color: blue; */
+    gap: 20px;
+    align-items: center;
+    padding: 30px 0px;
+}
+.edutitle h2{
+    font-size: 40px;
+}
+
+.edu-outter{
+    width: 100%;
+
+   
+    /* background-color: blue; */
+    border: solid 1px rgba(128, 128, 128, 0.219);
+    padding: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.edu-left{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 10px;
+    
+    height: 100%;
+    flex: 1;
+    /* background-color: red; */
+}
+
+.edu-left h3{
+    font-size: 20px;
+}
+.edu-left p{
+    font-size: 10px;
+    color: gray;
+
+}
+#p1{
+    padding-bottom: 12px;
+}
+.edu-right{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    flex: 1;
+    justify-content: center;
+    /* background-color: rgb(59, 119, 54); */
+     border-left: solid 1px rgba(128, 128, 128, 0.219) ;
+}
+
+.edu-right nav ul{
+    display: flex;
+    flex-direction: column;
+    list-style:inside;
+    font-size: 8px;
+    padding: 0px;
+    gap: 10px;
+}
+.edu-right nav ul li{
+    padding: 0px 20px;
+}
+.edu-right h4{
+    padding: 10px 20px;
+    font-size: 8px;
+    color: gray;
+
+}

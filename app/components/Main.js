@@ -1,6 +1,7 @@
 import Header from "./Header"
 import Hero from "./Hero"
 import Skills from "./Skills"
+import Education from "./Education"
 import "./project.css"
 
 
@@ -14,6 +15,7 @@ return (
         <Hero/>
       
         <Skills/>
+        <Education/>
 
         
 
