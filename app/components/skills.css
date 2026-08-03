@@ -1,0 +1,61 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.skills{
+    padding: 20px 0px ;
+    
+    
+}
+.title{
+    display: flex;
+    padding: 30px 0px;
+    align-items: center;
+    gap: 20PX;
+}
+.title h2{
+    font-size: 40px;
+}
+
+
+.outter{
+    border: solid 1px gray;
+
+   
+
+}
+.grid{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr); 
+
+    
+
+}
+.inner{
+    border-right: solid 1px gray ;
+    border-left: solid 1px gray ;
+    padding: 20px;
+    font-size: 12px;
+}
+li, h4 {
+    padding: 10px;
+}
+
+h4{
+    color: #c98a4b
+    
+
+}
+
+@media (max-width: 800px){
+    .grid{
+        display: grid;
+         grid-template-columns: repeat(3, 1fr); 
+
+    }
+    .inner {
+  border-bottom: 1px solid gray;
+}
+}
