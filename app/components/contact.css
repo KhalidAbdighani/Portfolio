@@ -1,0 +1,81 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+.contact{
+    /* background-color: red; */
+    margin: 20px 0px 0px 0px;
+}
+.con-outter{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    height: 200px;
+    width: 100%;
+    /* background-color: blue; */
+}
+
+.con-title{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    color: gray;
+    
+}
+.con-info{
+    padding-top: 20px;
+}
+.con-info p{
+    font-size: 40px;
+    padding: 0px;
+}
+
+#C2{
+    color: #c98a4b;
+}
+.con-title p{
+    font-size: 10px;
+}
+.con-title h2{
+    font-size: 12px;
+}
+.links{
+    width: 50%;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    margin: auto;
+}
+.con-email{
+    background: white;
+    color: black;
+    padding: 5px 10px;
+    font-size: 8px;
+    border-radius: 1px;
+    
+}
+.con-github{
+    background: rgb(0, 0, 0);
+    color: white;
+    border: solid 1px rgba(128, 128, 128, 0.479);
+    padding: 5px 10px;
+    font-size: 8px;
+    border-radius: 1px;
+}
+.con-linkedin{
+    background: rgb(0, 69, 114);
+    color: rgb(136, 208, 255);
+    padding: 5px 10px;
+    font-size: 8px;
+    border-radius: 1px;
+}
+.links a{
+    
+    display: flex;
+    gap: 2px;
+    align-items: center;
+    cursor: pointer;
+
+}

@@ -46,11 +46,14 @@
 }
 .edu-left p{
     font-size: 10px;
-    color: gray;
+    color: rgb(112, 112, 112);
 
 }
 #p1{
     padding-bottom: 12px;
+}
+#p2, #p3{
+    color: rgb(187, 187, 187);
 }
 .edu-right{
     display: flex;
@@ -76,6 +79,11 @@
 .edu-right h4{
     padding: 10px 20px;
     font-size: 8px;
-    color: gray;
+    color: #c98a4b
 
+}
+.edu-right nav ul li::marker{
+    color: #c98a4b
+
+    
 }

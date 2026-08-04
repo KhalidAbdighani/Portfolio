@@ -24,7 +24,7 @@ export default function Hero (){
                     </div>
 
                     <div >
-                        <button className="github"> <a href="https://github.com/KhalidAbdighani"
+                        <button className="github"><a href="https://github.com/KhalidAbdighani"
                         target="_blank"
                         rel="noopener noreferrer"
                         >github/khalidAbdighani</a></button>
