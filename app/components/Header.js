@@ -1,5 +1,5 @@
 "use client"
-import "./project.css"
+import "./Header.css"
 import { RiMenu3Line } from "react-icons/ri";
 import { RxCross1 } from "react-icons/rx";
 
@@ -34,6 +34,7 @@ export default function Header(){
                         <li><a href="#skills" onClick={menu}>Skills</a></li>
                         <li><a href="#education" onClick={menu}>Education</a></li>
                         <li><a href="#contact" onClick={menu}>Contact</a></li>
+                        <li><a href="#Projects" onClick={menu}>Projects</a></li>
                     </ul>
                     
                 </nav>

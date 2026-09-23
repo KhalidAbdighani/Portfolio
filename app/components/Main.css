@@ -1,0 +1,25 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.father{
+     min-height: 100vh;
+    width: 100%;
+    background-color: rgb(115, 128, 63);
+     background: black;
+    display: flex;
+    flex-direction: column;
+    
+
+}
+.myMain{
+    height: 100%;
+    width: 90%;
+    margin: auto;
+    background-color: rgb(128, 63, 63);
+    background: black;
+    
+    
+}

@@ -14,7 +14,7 @@ export default function Skills (){
         },
         {
             title: "BACKEND",
-            items: ["Express.js", "Node.js","MVC Pattern"],
+            items: ["Express.js","Node.js","MVC Pattern","ASP.Net core"]
         },
         {
             title: "DATABASE",

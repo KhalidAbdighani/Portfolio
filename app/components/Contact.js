@@ -11,7 +11,7 @@ export default function Contact(){
             
             <div className="con-outter">
                     <div className="con-title">
-                    <p>04 - </p>
+                    <p>05 - </p>
                     <h2>Contact</h2>
 
                     </div>

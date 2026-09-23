@@ -3,7 +3,8 @@ import Hero from "./Hero"
 import Skills from "./Skills"
 import Education from "./Education"
 import Contact from "./Contact"
-import "./project.css"
+import Projects from "./Projects"
+import "./Main.css"
 
 
 
@@ -17,7 +18,9 @@ return (
       
         <Skills/>
         <Education/>
+        <Projects/>
         <Contact/>
+        
 
         
 
