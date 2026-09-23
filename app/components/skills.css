@@ -53,9 +53,15 @@ li, h4 {
     .grid{
         display: grid;
          grid-template-columns: repeat(3, 1fr); 
-
     }
+
+
     .inner {
-  border-bottom: 1px solid gray;
-}
+            border-bottom: 1px solid gray;
+            font-size: 12px;
+    }
+
+    .title h2{
+        font-size: 30px;
+    }
 }
