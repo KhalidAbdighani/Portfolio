@@ -1,0 +1,145 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+.F-box{
+    height: 90px;
+    width: 90px;
+    border-radius: 50px;
+    background-color: white;
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    z-index: 10;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    overflow: hidden;
+}
+.F-boxOpen{
+    height: 400px;
+    width: 400px;
+    border-radius: 10px;
+    cursor: default;
+    outline: none;
+    border: none;
+    overflow: hidden;
+    padding: 0px;
+    
+    
+
+}
+.chat-open{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+    border-radius: 0px;
+    overflow: hidden;
+    padding: 0px;
+}
+.chat-header{
+    flex: 1;
+    /* background-color: #640404; */
+   
+    background-color: #050505;
+  
+    display: flex;
+    align-items: center;
+    padding: 5px 20px;
+    gap: 10px;
+    
+}
+.ai-ico{
+    font-size: 30px;
+}
+.chat-mid{
+    flex: 7;
+    /* background-color: #0d4f92;; */
+    padding: 25px 5px 0px 12px;
+    display: flex;
+    overflow-y: auto;
+    flex-direction: column;
+
+    
+    
+}
+.chat-fotter{
+    flex: 1.2;
+    background-color: #ffffff;
+    /* border-top: solid 0.5px  #000000; */
+    border-bottom-left-radius: 13px;
+    border-bottom-right-radius: 13px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 10px;
+    
+}
+
+.write-box{
+    width: 70%;
+    height: 30px;
+    background-color: rgb(224, 224, 224);
+    color: black;
+    padding: 15px;
+    font-size: 12px;
+
+    border-radius: 20px;
+     outline: none;
+}
+
+.chat-icon{
+    color: black;
+    font-size: 50px;
+}
+.send{
+    height: 30px;
+    width: 30px;
+    background-color: rgb(224, 224, 224);
+    margin-left: 15px;
+    /* padding: 10px; */
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+
+}
+@media (max-width: 800px){
+    .F-box{
+    height: 60px;
+    width: 60px;
+    border-radius: 50px;
+    background-color: white;
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    z-index: 10;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    overflow: hidden;
+}
+    .chat-icon{
+        font-size: 30px;
+    }
+    
+    
+    .F-boxOpen{
+    height: 400px;
+    width: 350px;
+    border-radius: 10px;
+    cursor: default;
+    outline: none;
+    border: none;
+    overflow: hidden;
+    padding: 0px;
+} 
+}

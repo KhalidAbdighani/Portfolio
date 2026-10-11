@@ -4,7 +4,9 @@ import Skills from "./Skills"
 import Education from "./Education"
 import Contact from "./Contact"
 import Projects from "./Projects"
+import Chatbox from "./Chatbox"
 import "./Main.css"
+
 
 
 
@@ -20,6 +22,7 @@ return (
         <Education/>
         <Projects/>
         <Contact/>
+        <Chatbox/>
         
 
         
