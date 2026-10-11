@@ -74,7 +74,7 @@ useEffect(() => {
 
         try {
         
-        const response = await fetch("http://localhost:5046/api/chat", {
+        const response = await fetch("https://portfolio-back-end-1-81io.onrender.com", {
             method: "POST",
             headers: {
                 "Content-Type": "application/json",
