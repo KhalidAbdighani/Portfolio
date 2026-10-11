@@ -18,11 +18,11 @@ const boxRef = useRef(null);
 const [input, setInput] = useState("");
 const [messages, setmessages]=useState([
     {
-        sender:"AI", text:"Assalamu Alaikum, I Am Abu imran Ai Assistant!",
+        sender:"AI", text:"Assalamu Alaikum, I Am Abu Imran Ai Assistant!",
         
     },
     {
-        sender:"AI", text:"What do you want to know abou Abu Imran?"
+        sender:"AI", text:"What do you want to know about Abu Imran?"
     }
 ])
 
@@ -74,18 +74,18 @@ useEffect(() => {
 
         try {
         
-        const response = await fetch("https://portfolio-back-end-1-81io.onrender.com/api/chat", {
+        const response = await fetch("https://portfolio-back-end-1-81io.onrender.com/api/External/chat", {
             method: "POST",
             headers: {
                 "Content-Type": "application/json",
             },
-            body: JSON.stringify({ message: userText }),
+            body: JSON.stringify({ question: userText }),
         });
 
         const data = await response.json();
 
         
-        setmessages(prev => [...prev, { sender: "AI", text: data.reply }]);
+        setmessages(prev => [...prev, { sender: "AI", text: data.answer }]);
 
     } catch (error) {
         console.error("Error connecting to backend:", error);
